@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.maulanakurnia.agentvalorant.R
-import com.maulanakurnia.agentvalorant.model.Agent
+import com.maulanakurnia.agentvalorant.model.AgentModel
 import com.maulanakurnia.agentvalorant.ui.DetailActivity
 
-class AgentAdapter(private val listAgent: ArrayList<Agent>, private val context: Context) :
+class AgentAdapter(private val listAgent: ArrayList<AgentModel>, private val context: Context) :
     RecyclerView.Adapter<AgentAdapter.AgentHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AgentHolder {

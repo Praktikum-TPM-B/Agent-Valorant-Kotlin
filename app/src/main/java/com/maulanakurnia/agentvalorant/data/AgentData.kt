@@ -1,6 +1,6 @@
 package com.maulanakurnia.agentvalorant.data
 
-import com.maulanakurnia.agentvalorant.model.Agent
+import com.maulanakurnia.agentvalorant.model.AgentModel
 
 object AgentData {
     private var data = arrayOf(
@@ -90,11 +90,11 @@ object AgentData {
         )
     )
 
-    val listData: ArrayList<Agent>
+    val listData: ArrayList<AgentModel>
     get() {
-        val list = ArrayList<Agent>()
+        val list = ArrayList<AgentModel>()
         for (Data in data) {
-            val agent = Agent()
+            val agent = AgentModel()
             agent.image = Data[0]
             agent.name = Data[1]
             agent.role = Data[2]
