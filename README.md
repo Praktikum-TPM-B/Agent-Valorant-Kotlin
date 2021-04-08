@@ -7,7 +7,9 @@ Maulana Kurnia Fiqih Ainul Yaqin </br>
 # Screenshot
 
 - List Agent Valorant
+
 ![alt text](assets/list.jpeg)]
 
 - Detail Agent Valorant
+
 ![alt text](assets/detail.jpeg)]
